@@ -3,7 +3,7 @@ import dlib
 import numpy as np
 
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('D:/Learning/Projects/GazeControlledKeyboard/shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 font = cv2.FONT_HERSHEY_PLAIN
 
 
